@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+    background-color: aqua;
+}
+
+header {
+    
+}
+
+.main-content {
+    background-color: gray;
+}
