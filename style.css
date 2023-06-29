@@ -51,7 +51,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     font-size: 1.5rem;
     font-weight: 450;
 }
@@ -77,6 +77,11 @@ ul {
     gap: 40px;
 }
 
+.top-list ul li:hover,
+.bottom-list ul li:hover {
+    filter: invert(31%) sepia(11%) saturate(3646%) hue-rotate(216deg) brightness(93%) contrast(88%);
+    cursor: pointer;
+}
 
 
 /* Header */
