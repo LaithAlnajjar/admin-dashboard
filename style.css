@@ -64,12 +64,14 @@ ul {
     width: 77px;
 }
 
-.top-list ul li img {
+.top-list ul li img,
+.bottom-list ul li img {
     height: 30px;
     width: 30px;
 }
 
-.top-list ul li {
+.top-list ul li,
+.bottom-list ul li {
     display: flex;
     align-items: center;
     gap: 40px;
