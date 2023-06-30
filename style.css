@@ -187,6 +187,10 @@ button:hover {
 
 }
 
+.notif:hover, .search-icon:hover {
+    cursor: pointer;
+    filter: brightness(75%);
+}
 
 /* Sidebar Section */
 
@@ -326,8 +330,9 @@ svg:hover {
 .announcements {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-grow: 1;
-    padding: 25px;
+    padding: 10px 25px;
     margin-top: 10px;
     border-radius: 10px;
     background-color: rgb(29, 29, 29);
@@ -358,7 +363,7 @@ svg:hover {
 
 .trending-section {
     padding: 20px 25px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
 }
@@ -366,6 +371,7 @@ svg:hover {
 .trends {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 25px;
     margin-top: 10px;
     border-radius: 10px;
@@ -379,11 +385,20 @@ svg:hover {
     gap: 15px;
 }
 
+.trend-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
 .trend-nick {
     font-size: 1rem;
     color: rgb(204, 204, 204);
 }
 
+.trend-username {
+    font-size: 1.2rem;
+}
 
 .trend img {
     height: 30px;
